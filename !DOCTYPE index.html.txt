@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Did We Drift Apart?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fef6e4;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        h1 {
+            color: #f08080;
+        }
+        .heart {
+            font-size: 100px;
+            color: #ff99c8;
+        }
+        button {
+            background-color: #f08080;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff9999;
+        }
+        .message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hey Maria and Jarience!</h1>
+        <p class="heart">❤️</p>
+        <p>I just wanted to ask something that's been on my mind...</p>
+        <button onclick="showMessage()">Click Me!</button>
+        <div class="message" id="message">
+            <p>Why did we drift apart? 🥺</p>
+            <p>I miss the fun times we had together and hope we can talk things out.</p>
+            <p>Feel free to reach out—I’d love to understand!</p>
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>
